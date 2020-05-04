@@ -71,6 +71,11 @@ There are two types of traces:
   * Column 5: Packet delay in milliseconds
   * Column 5: packet inter-arrival-time (IaT) in milliseconds
 
+As an example of data analysis of simulation data, two Matlab files have been added:
+  
+* `timeEvol.m` to create figures of the temporal evolution of SINR, sent bytes, RLC buffer, delay and IaT.
+* `corrGraph.m` to analyze the correlation between RLC buffer, delay and IaT.
+
 ##  Machine learning
 
 Machine learning algorithms are implemented in:
